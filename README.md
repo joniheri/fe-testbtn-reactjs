@@ -4,7 +4,7 @@
 
 - Node JS 22.x.x
 
-## Runing program
+## Running program
 
 - `npm run dev` to running program
 
