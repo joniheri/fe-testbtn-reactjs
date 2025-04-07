@@ -6,7 +6,7 @@
 
 ## Runing program
 
-- `npm run dev` to runinning program
+- `npm run dev` to running program
 
 # React + Vite
 
