@@ -12,12 +12,10 @@ export default function SearchComponent() {
   const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
-    // SearchProduct
     const results = products.filter((product) =>
       product.name.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setSearchResults(results);
-    // End Search prodict
   }, [searchTerm]);
 
   const handleChange = (event) => {
