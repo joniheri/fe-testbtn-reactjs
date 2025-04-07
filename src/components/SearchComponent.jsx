@@ -18,6 +18,7 @@ export default function SearchComponent() {
     setSearchResults(results);
   }, [searchTerm]);
 
+  // hadle search input
   const handleChange = (event) => {
     setSearchTerm(event.target.value);
   };
